@@ -1,0 +1,10 @@
+#SIMPLE INTEREST
+def simple_interest(p,r,t):
+print("The principal is",p)
+print("The rate is",r)
+print("The time is",t)
+SI=(p*r*t)/100
+print("The simple interest is",SI)
+return SI
+#Drive Code
+Simple Interest(8,6,8)
